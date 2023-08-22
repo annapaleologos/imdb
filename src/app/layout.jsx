@@ -1,10 +1,17 @@
-import './globals.css'
+import "./globals.css";
+import Header from '@/components/Header';
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <body>
+      <Header />
+      {/* Navbar */}
+      {/* Searchbox */}
       
-      <body>{children}</body>
+      
+      {children}</body>
     </html>
-  )
+  );
 }
