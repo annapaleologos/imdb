@@ -14,7 +14,7 @@ export default function SearchBox() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex justify-between max-w-6xl mx-auto"
+      className="flex justify-between max-w-6xl px-4 mx-auto"
     >
       <input
         value={search}
