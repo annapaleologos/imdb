@@ -12,7 +12,7 @@ export default function Card({ result }) {
           }`}
           width={500}
           height={300}
-          className="transition-opacity duration-200 sm:rounded-t-lg group-hover:opacity-80"
+          className="transition-opacity duration-200 rounded-lg sm:rounded-t-lg group-hover:opacity-80"
           style={{
             maxWidth: "100%",
             height: "auto",
